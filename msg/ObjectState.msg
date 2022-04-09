@@ -1,6 +1,7 @@
 uint8 CUBE=0
 uint8 SPHERE=1
 uint8 CYLINDER=2
+uint8 MESH=3
 std_msgs/Header header
 string name
 geometry_msgs/Pose pose
@@ -8,3 +9,4 @@ geometry_msgs/Twist velocity
 int32 type
 geometry_msgs/Vector3 scale
 std_msgs/ColorRGBA color
+string mesh_path
