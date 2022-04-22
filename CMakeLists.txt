@@ -50,6 +50,7 @@ add_message_files(
   FILES
   ObjectInfo.msg
   ObjectState.msg
+  ObjectStateArray.msg
   ObjectStatus.msg
 )
 
